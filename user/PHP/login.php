@@ -1,11 +1,8 @@
 <?php
 
-    if(!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE ) {
-        header("Location: ../vista/login.html");
-        //echo "mal";
-    }
+    
 
-    include '../../databse/conexionBD.php';
+    include '../../database/conexionBD.php';
  
     $usuario = isset($_POST["correo"]) ? trim($_POST["correo"]) : null; 
     $contrasena = isset($_POST["contrasena"]) ? trim($_POST["contrasena"]) : null; 
