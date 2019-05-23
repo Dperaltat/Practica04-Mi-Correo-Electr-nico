@@ -60,7 +60,7 @@
 <head>     
     <meta charset="UTF-8"> 
     <title>Correo: <?php echo $nombres ?> <?php echo $apellidos ?> </title> 
-    <link rel="stylesheet" href="../vista/CSS/estilo.css" type="text/css"/>
+    <link rel="stylesheet" href="../vista/CSS/baseEstilo.css" type="text/css"/>
 </head> 
 <body>
 

@@ -26,7 +26,7 @@
 <head>     
     <meta charset="UTF-8"> 
     <title>Correo: <?php echo $nombres ?> <?php echo $apellidos ?> </title> 
-    <link rel="stylesheet" href="../vista/CSS/estilo.css" type="text/css"/>
+    <link rel="stylesheet" href="../vista/CSS/baseEstilo.css" type="text/css"/>
     <script type="text/javascript" src="../JS/ajax.js"></script>
 </head> 
 <body>
@@ -51,7 +51,7 @@
 
     <br>
 
-    <h1> Identificado como: <?php echo $nombres ?> <?php echo $apellidos ?> </h1>
+    <h1> <?php echo $nombres ?> <?php echo $apellidos ?> </h1>
     <br>
     <h2 class="center"> Bandeja de Entrada </h2>
 

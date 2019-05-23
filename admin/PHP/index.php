@@ -26,7 +26,7 @@
 <head>     
     <meta charset="UTF-8"> 
     <title>Correo: <?php echo $nombres ?> <?php echo $apellidos ?> </title> 
-    <link rel="stylesheet" href="../../user/vista/CSS/estilo.css" type="text/css"/>
+    <link rel="stylesheet" href="../../user/vista/CSS/baseEstilo.css" type="text/css"/>
 </head> 
 <body>
     
@@ -48,7 +48,7 @@
 
     <br>
 
-    <h1> Identificado como: <?php echo $nombres ?> <?php echo $apellidos ?> </h1>
+    <h1><?php echo $nombres ?> <?php echo $apellidos ?> </h1>
     <br>
     <h2 class="center"> Mensajes </h2>
 
