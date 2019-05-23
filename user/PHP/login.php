@@ -5,7 +5,7 @@
         //echo "mal";
     }
 
-    include '../../config/conexionBD.php';
+    include '../../databse/conexionBD.php';
  
     $usuario = isset($_POST["correo"]) ? trim($_POST["correo"]) : null; 
     $contrasena = isset($_POST["contrasena"]) ? trim($_POST["contrasena"]) : null; 
@@ -41,7 +41,7 @@
             $_SESSION['id']=$id;             
             $_SESSION['isLogged'] = TRUE; 
             $_SESSION["rol"] = "admin";     
-            header("Location: ../../admin/controladores/index.php"); 
+            header("Location: ../../admin/PHP/index.php"); 
         } else if ($result->num_rows > 0 && $user->num_rows > 0) {
             session_start();
             //$user = $user->fetch_assoc(); 
