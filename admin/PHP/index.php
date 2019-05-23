@@ -17,7 +17,7 @@
 
     $nombres=$rowUsuario['usu_nombres'];
     $apellidos=$rowUsuario['usu_apellidos'];
-   //$foto=$rowUsuario['usu_foto_perfil'];
+    $foto=$rowUsuario['usu_foto_perfil'];
 
 ?>
 
