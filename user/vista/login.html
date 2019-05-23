@@ -3,12 +3,10 @@
 <head> 
     <meta charset="UTF-8"> 
     <script type="text/javascript" src="../JS/validacion.js"></script>
-    <link rel="stylesheet" href="CSS/estilo.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/estiloLogin.css" type="text/css"/>
     <title>Iniciar sesión</title>
 </head> 
-    <body> 
-        <a href='crear_usuario.html'>Crear Cuenta</a>  
-        <br>       
+    <body>        
         <form id="formulario01" method="POST" onsubmit="return validarCamposObligatorios()" action="../PHP/login.php"> 
             <label for="correo">Correo electrónico </label> 
             <input type="text" id="correo" name="correo" value="" placeholder="Ingrese el correo ..."/> 
@@ -21,7 +19,10 @@
             <input type="submit" id="login" name="login" value="Iniciar Sesión" /> 
                      
         </form> 
-             
+
+        <br>
+        <a href='crear_usuario.html'>Crear Cuenta</a>  
+         
     </body> 
 </html> 
 

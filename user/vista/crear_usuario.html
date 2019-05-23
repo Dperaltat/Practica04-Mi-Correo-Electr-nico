@@ -3,13 +3,12 @@
 <head> 
     <meta charset="UTF-8">
     <script type="text/javascript" src="../JS/validacion.js"></script>
-    <link rel="stylesheet" href="CSS/estilo.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/estiloLogin.css" type="text/css"/>
 </head> 
 <body> 
     
     <!-- ../controladores/crear_usuario.php      onsubmit="return validarCamposObligatorios()"    -->
 
-    <a href='login.html'>Iniciar Sesion</a>
 
     <form id="nuevo_usuario" method="POST" onsubmit="return validarCamposObligatorios()" action="../PHP/crear_usuario.php" enctype="multipart/form-data" >
  
@@ -54,6 +53,7 @@
         <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />     
         
     </form>     
- 
+    <a href='login.html'>Ya tienes cuenta? Inicia Sesion</a> 
+
 </body> 
 </html> 

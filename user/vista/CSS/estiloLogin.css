@@ -1,0 +1,34 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+} 
+
+html, body { height: 100%; }
+body{
+    background-color: #66a5ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#formulario01, #nuevo_usuario{
+    color: #66a5ad;
+    margin: 20px;
+	padding: 20px;
+	background-color: #003b46;
+	border-top: 2px solid #20232a;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+	padding-left: 36px;
+	width: 204px;
+}
+

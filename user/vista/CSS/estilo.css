@@ -1,3 +1,20 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+} 
+
+html, body { height: 100%; }
+body{
+    background-color: #66a5ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+    font-size: 1.5em;
+}
+
 .error {
     color: red;
     font-size: 8px;
@@ -55,14 +72,6 @@ img {
     width: 50%;
 }
 
-footer {
-    clear: both;
-    color: black;
-    text-align: center;
-    width: 100%;
-    padding: 1px;
-    float: inline-end;
-}
 
 .mensaje {
     vertical-align: top; 
