@@ -21,15 +21,10 @@ body{
 	padding: 20px;
 	background-color: #5b7065;
 	border-top: 2px solid #20232a;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
+	border-right: 1px;
+	border-left: 1px;
 	border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-    -o-border-radius: 5px 5px 0 0;
-    -ms-border-radius: 5px 5px 0 0;
-	padding-left: 36px;
-	width: 204px;
+	width: 215px;
 }
 
 input[type="submit"] {
@@ -38,10 +33,6 @@ input[type="submit"] {
 	background-color: #ACBEBE;
 	border: 1px solid #ACBEBE;
 	border-radius: 7px;
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
 	color: #20232a;
 	font-weight: bold;
 	text-align: center;
@@ -54,10 +45,6 @@ input[type="reset"] {
 	background-color: #ACBEBE;
 	border: 1px solid #ACBEBE;
 	border-radius: 7px;
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
 	color: #20232a;
 	font-weight: bold;
 	text-align: center;
@@ -68,14 +55,10 @@ input[type="text"] {
 	margin: 6px;
 	padding: 6px;
 	background-color: #fff;
-	border-top: 2px solid #20232a;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
+	border-top: 2px;
+	border-right: 1px;
+	border-left: 1px;
 	border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-    -o-border-radius: 5px 5px 0 0;
-    -ms-border-radius: 5px 5px 0 0;
 	color: #363636;
 	width: 204px;
 }
@@ -84,14 +67,10 @@ input[type="email"] {
 	margin: 6px;
 	padding: 6px;
 	background-color: #fff;
-	border-top: 2px solid #20232a;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
+	border-top: 2px;
+	border-right: 1px;
+	border-left: 1px;
 	border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-    -o-border-radius: 5px 5px 0 0;
-    -ms-border-radius: 5px 5px 0 0;
 	color: #363636;
 	width: 204px;
 }
@@ -100,14 +79,10 @@ input[type="date"] {
 	margin: 6px;
 	padding: 6px;
 	background-color: #fff;
-	border-top: 2px solid #20232a;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
+	border-top: 2px;
+	border-right: 1px;
+	border-left: 1px;
 	border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-    -o-border-radius: 5px 5px 0 0;
-    -ms-border-radius: 5px 5px 0 0;
 	color: #363636;
 	width: 204px;
 }
@@ -116,14 +91,10 @@ input[type="password"] {
 	margin: 6px;
 	padding: 6px;
 	background-color: #fff;
-	border-top: 2px solid #20232a;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
+	border-top: 2px;
+	border-right: 1px;
+	border-left: 1px;
 	border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-    -o-border-radius: 5px 5px 0 0;
-    -ms-border-radius: 5px 5px 0 0;
 	color: #363636;
 	width: 204px;
 }

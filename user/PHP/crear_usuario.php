@@ -7,7 +7,7 @@
 <body> 
  
     <?php         
-        //incluir conexión a la base de datos         
+       
         include '../../database/conexionBD.php';                 
  
         $nombres = isset($_POST["nombres"]) ? mb_strtoupper(trim($_POST["nombres"]), 'UTF-8') : null; 
