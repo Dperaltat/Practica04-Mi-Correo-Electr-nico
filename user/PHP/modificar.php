@@ -1,6 +1,6 @@
 <?php
         
-    include '../../config/conexionBD.php';
+    include '../../database/conexionBD.php';
 
     session_start();
 
@@ -53,9 +53,9 @@
 <html> 
 <head> 
     <meta charset="UTF-8">
-    <script type="text/javascript" src="../js/validacion.js"></script>
+    <script type="text/javascript" src="../JS/validacion.js"></script>
     <title>Correo: <?php echo $nombres ?> <?php echo $apellidos ?> </title> 
-    <link rel="stylesheet" href="../vista/styles/style.css" type="text/css"/>  
+    <link rel="stylesheet" href="../vista/CSS/estilo.css" type="text/css"/>  
 </head> 
 <body> 
  
