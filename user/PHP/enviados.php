@@ -44,7 +44,7 @@
     </table>
 
     <div class="img">
-        <img src="<?php echo $foto ?>">
+        <img src="<//?php echo $foto ?>">
         <br>
         <span> <?php echo $nombres ?> <?php echo $apellidos ?> </span>
     </div>

@@ -1,6 +1,6 @@
 <?php 
 
-    include '../../config/conexionBD.php';
+    include '../../database/conexionBD.php';
 
     session_start();
 
@@ -48,7 +48,7 @@
 <head>     
     <meta charset="UTF-8"> 
     <title>Correo: <?php echo $nombres ?> <?php echo $apellidos ?> </title> 
-    <link rel="stylesheet" href="../vista/styles/style.css" type="text/css"/>
+    <link rel="stylesheet" href="../vista/CSS/estilo.css" type="text/css"/>
 </head> 
 <body>
 
@@ -133,16 +133,6 @@
 
     
     <br>
-
-    <footer>
-        &#8226; &nbsp; Pedro Jose Ortiz Solis &nbsp; &#8226; 
-        &nbsp; Universidad Politécnica Salesiana &nbsp; &#8226;
-        <a href="mailto:portizs2@est.ups.edu.ec">portizs2@est.ups.edu.ec</a> &nbsp; &#8226;
-        <a href="tel:+593991936486">(099) 193-6486</a> &#8226;
-        <br>
-        &#8226; &nbsp; &#9400; Todos los derechos reservados. &nbsp; &#8226;
-    </footer>
-
  
 </body> 
 </html> 
