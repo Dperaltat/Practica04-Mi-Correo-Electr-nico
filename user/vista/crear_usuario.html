@@ -11,7 +11,7 @@
 
     <a href='login.html'>Iniciar Sesion</a>
 
-    <form id="nuevo_usuario" method="POST" onsubmit="return validarCamposObligatorios()" action="../controladores/crear_usuario.php" enctype="multipart/form-data" >
+    <form id="nuevo_usuario" method="POST" onsubmit="return validarCamposObligatorios()" action="../PHP/crear_usuario.php" enctype="multipart/form-data" >
  
         <label for="nombres">Nombres (*)</label> 
         <input type="text" id="nombres" name="nombres" value="" placeholder="Ingrese sus dos nombres..." onkeyup="return validarLetras()">
@@ -33,9 +33,9 @@
         <span id="mensajeContrasena" class="error"> </span>
         <br>
 
-        <label for="foto">Avatar - Foto de perfil</label> 
+       <!-- <label for="foto">Avatar - Foto de perfil</label> 
         <input type="file" id="foto" name="foto" value="" placeholder="foto" > 
-        <br> 
+        <br>--> 
  
         <!--
         <label for="rol">Tipo de usuario (*):</label>
