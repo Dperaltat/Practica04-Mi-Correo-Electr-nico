@@ -5,7 +5,7 @@
 
 html, body { height: 100%; }
 body{
-    background-color: #66a5ad;
+    background-color: #07575b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,3 +32,42 @@ body{
 	width: 204px;
 }
 
+input[type="submit"] {
+	margin: 6px;
+	padding: 6px;
+	background-color: #ACBEBE;
+	border: 1px solid #ACBEBE;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+	color: #20232a;
+	font-weight: bold;
+	text-align: center;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+	margin: 6px;
+	padding: 6px;
+	background-color: #ACBEBE;
+	border: 1px solid #ACBEBE;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+	color: #20232a;
+	font-weight: bold;
+	text-align: center;
+    cursor: pointer;
+}
+
+
+a {
+    display: block;
+    color: #66a5ad;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
