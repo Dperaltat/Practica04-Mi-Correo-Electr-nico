@@ -1,6 +1,6 @@
 <?php 
 
-    include '../../config/conexionBD.php';
+    include '../../database/conexionBD.php';
 
     session_start();
 
@@ -8,7 +8,7 @@
         $id=$_SESSION['id'];
 
     if($_SESSION["rol"] != "admin")
-        header("Location: ../../public/controladores/logout.php");
+        header("Location: ../../user/PHP/logout.php");
 
     $sqlUsuario = "SELECT * FROM usuario WHERE usu_id=$id";
 
@@ -26,7 +26,7 @@
 <head>     
     <meta charset="UTF-8"> 
     <title>Correo: <?php echo $nombres ?> <?php echo $apellidos ?> </title> 
-    <link rel="stylesheet" href="../../public/vista/CSS/estilo.css" type="text/css"/>
+    <link rel="stylesheet" href="../../user/vista/CSS/estilo.css" type="text/css"/>
 </head> 
 <body>
     
@@ -35,7 +35,7 @@
         <tr> 
             <th><a href="index.php">Inicio</a></th>  
             <th><a href="usuarios.php">Usuarios</a></th>
-            <th><a href="../../public/controladores/logout.php">Cerrar Sesión</a></th>             
+            <th><a href="../../user/PHP/logout.php">Cerrar Sesión</a></th>             
         </tr>
 
     </table>

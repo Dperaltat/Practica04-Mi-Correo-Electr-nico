@@ -1,6 +1,6 @@
 <?php 
 
-    include '../../config/conexionBD.php';
+    include '../../database/conexionBD.php';
 
     session_start();
     if(isset($_SESSION['rol']) != 'user')
