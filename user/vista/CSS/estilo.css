@@ -47,6 +47,61 @@ input[type="reset"] {
     cursor: pointer;
 }
 
+input[type="text"] {
+	margin: 6px;
+	padding: 6px;
+	background-color: #fff;
+	border-top: 2px solid #20232a;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+	color: #363636;
+	width: 204px;
+}
+
+input[type="email"] {
+	margin: 6px;
+	padding: 6px;
+	background-color: #fff;
+	border-top: 2px solid #20232a;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+	color: #363636;
+	width: 204px;
+}
+
+input[type="date"] {
+	margin: 6px;
+	padding: 6px;
+	background-color: #fff;
+	border-top: 2px solid #20232a;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+	color: #363636;
+	width: 204px;
+}
+
+a {
+    display: block;
+    color: #304040;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
 .error {
     color: red;
     font-size: 8px;
