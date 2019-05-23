@@ -22,7 +22,7 @@
 
         $rol = "user";
                 
-        $sql = "INSERT INTO usuario VALUES (0, '$nombres', '$apellidos', '$correo', MD5('$contrasena'), '$rol', 0, null, null, $fotoDestino)";         
+        $sql = "INSERT INTO usuario VALUES (0, '$nombres', '$apellidos', '$correo', MD5('$contrasena'), '$rol', 0, null, null, '$fotoDestino')";         
  
         if ($conn->query($sql) === TRUE) {             
             echo "<p>Se ha creado los datos personales correctamemte!!!</p>";      
